@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C6B1400FD80DD7875068C669 /* runescapeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B142855DFA58C12664FCBE /* runescapeUITests.swift */; };
+		C6B143BB1A44E2F10073EC20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6B149F4C4011B2826C6D036 /* Main.storyboard */; };
+		C6B146A36950AD9AD4F1F89F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6B1465D35DFCA72C740D512 /* LaunchScreen.storyboard */; };
+		C6B149700EF55CB05919F47C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B1410161BE21EEC91F9F2C /* ViewController.swift */; };
+		C6B14A81E4FCC9F9EF441008 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B142DD57205342A46C947C /* AppDelegate.swift */; };
+		C6B14C0DC8FF99A181C5E4A7 /* runescapeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B148EAD13D3A28FD40BACB /* runescapeTests.swift */; };
+		C6B14D001896FC33B19C36FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6B14F9D41D7AD88301E200D /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C6B1409DD3AA8A07F6B8F6C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6B14D57C4ACD192A453B2D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6B14FFE52E9677BA1741847;
+			remoteInfo = runescape;
+		};
+		C6B143351F0D21114CBD44F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6B14D57C4ACD192A453B2D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6B14FFE52E9677BA1741847;
+			remoteInfo = runescape;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C6B1410161BE21EEC91F9F2C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C6B141B1BD4B820060AEDE30 /* runescapeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = runescapeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6B142841D465048E19057FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		C6B142855DFA58C12664FCBE /* runescapeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = runescapeUITests.swift; sourceTree = "<group>"; };
+		C6B142DD57205342A46C947C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C6B1434A30C25474AF287E64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C6B143FC3FB3D7C1E1209DEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		C6B148EAD13D3A28FD40BACB /* runescapeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = runescapeTests.swift; sourceTree = "<group>"; };
+		C6B14A218A384C01A41C0F06 /* runescapeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = runescapeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6B14CDA742831499762255A /* runescape.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = runescape.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6B14EF39DBE1A3C56AF3C5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C6B14F9D41D7AD88301E200D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C6B14FD0AAF2E6EFCA5F51B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C6B140D1F347A98EE12D74E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6B1486469F68B2F5377539F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6B14D15119F0C6EF04B08AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C6B14099DC3C8A90EE297C08 /* runescapeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C6B143FC3FB3D7C1E1209DEE /* Info.plist */,
+				C6B142855DFA58C12664FCBE /* runescapeUITests.swift */,
+			);
+			path = runescapeUITests;
+			sourceTree = "<group>";
+		};
+		C6B143E056BE847415031F7D /* runescape */ = {
+			isa = PBXGroup;
+			children = (
+				C6B142841D465048E19057FA /* Info.plist */,
+				C6B14F9D41D7AD88301E200D /* Assets.xcassets */,
+				C6B1465D35DFCA72C740D512 /* LaunchScreen.storyboard */,
+				C6B142DD57205342A46C947C /* AppDelegate.swift */,
+				C6B149F4C4011B2826C6D036 /* Main.storyboard */,
+				C6B1410161BE21EEC91F9F2C /* ViewController.swift */,
+			);
+			path = runescape;
+			sourceTree = "<group>";
+		};
+		C6B144F234313D75ECB15509 /* runescapeTests */ = {
+			isa = PBXGroup;
+			children = (
+				C6B14FD0AAF2E6EFCA5F51B8 /* Info.plist */,
+				C6B148EAD13D3A28FD40BACB /* runescapeTests.swift */,
+			);
+			path = runescapeTests;
+			sourceTree = "<group>";
+		};
+		C6B145AB1EF010872CBEF736 = {
+			isa = PBXGroup;
+			children = (
+				C6B14CD47A99DBF82E85E48E /* Products */,
+				C6B143E056BE847415031F7D /* runescape */,
+				C6B144F234313D75ECB15509 /* runescapeTests */,
+				C6B14099DC3C8A90EE297C08 /* runescapeUITests */,
+			);
+			sourceTree = "<group>";
+		};
+		C6B14CD47A99DBF82E85E48E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6B14CDA742831499762255A /* runescape.app */,
+				C6B14A218A384C01A41C0F06 /* runescapeTests.xctest */,
+				C6B141B1BD4B820060AEDE30 /* runescapeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C6B144319C8F11962B8F60CB /* runescapeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6B14D507EEAB97FDF97D572 /* Build configuration list for PBXNativeTarget "runescapeTests" */;
+			buildPhases = (
+				C6B147946B92738C04CC4BA7 /* Sources */,
+				C6B140D1F347A98EE12D74E7 /* Frameworks */,
+				C6B14A5BF97BBA6EEC0DE863 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6B14842FA1CD352977D25DB /* PBXTargetDependency */,
+			);
+			name = runescapeTests;
+			productName = runescapeTests;
+			productReference = C6B14A218A384C01A41C0F06 /* runescapeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C6B14BD35BB8F8D14123C611 /* runescapeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6B146C45F880FF9CF53F834 /* Build configuration list for PBXNativeTarget "runescapeUITests" */;
+			buildPhases = (
+				C6B148F9AD3D15C3BA384FD6 /* Sources */,
+				C6B1486469F68B2F5377539F /* Frameworks */,
+				C6B14F7852C822AC3B9A8274 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6B145972AE0829DA69DC8AB /* PBXTargetDependency */,
+			);
+			name = runescapeUITests;
+			productName = runescapeUITests;
+			productReference = C6B141B1BD4B820060AEDE30 /* runescapeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		C6B14FFE52E9677BA1741847 /* runescape */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6B14AC84440306F030C756C /* Build configuration list for PBXNativeTarget "runescape" */;
+			buildPhases = (
+				C6B144689725004DFD3264AF /* Sources */,
+				C6B14D15119F0C6EF04B08AF /* Frameworks */,
+				C6B1476A1A9358EA762E09A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = runescape;
+			productName = runescape;
+			productReference = C6B14CDA742831499762255A /* runescape.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C6B14D57C4ACD192A453B2D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Icekraks;
+			};
+			buildConfigurationList = C6B1485E7C42A0814302231E /* Build configuration list for PBXProject "runescape" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C6B145AB1EF010872CBEF736;
+			productRefGroup = C6B14CD47A99DBF82E85E48E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C6B14FFE52E9677BA1741847 /* runescape */,
+				C6B144319C8F11962B8F60CB /* runescapeTests */,
+				C6B14BD35BB8F8D14123C611 /* runescapeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C6B1476A1A9358EA762E09A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6B14D001896FC33B19C36FE /* Assets.xcassets in Resources */,
+				C6B146A36950AD9AD4F1F89F /* LaunchScreen.storyboard in Resources */,
+				C6B143BB1A44E2F10073EC20 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6B14A5BF97BBA6EEC0DE863 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6B14F7852C822AC3B9A8274 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C6B144689725004DFD3264AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6B14A81E4FCC9F9EF441008 /* AppDelegate.swift in Sources */,
+				C6B149700EF55CB05919F47C /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6B147946B92738C04CC4BA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6B14C0DC8FF99A181C5E4A7 /* runescapeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6B148F9AD3D15C3BA384FD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6B1400FD80DD7875068C669 /* runescapeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C6B145972AE0829DA69DC8AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6B14FFE52E9677BA1741847 /* runescape */;
+			targetProxy = C6B143351F0D21114CBD44F7 /* PBXContainerItemProxy */;
+		};
+		C6B14842FA1CD352977D25DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6B14FFE52E9677BA1741847 /* runescape */;
+			targetProxy = C6B1409DD3AA8A07F6B8F6C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C6B1465D35DFCA72C740D512 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6B14EF39DBE1A3C56AF3C5F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		C6B149F4C4011B2826C6D036 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6B1434A30C25474AF287E64 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C6B140B2E240B71E58DD385F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/runescape.app/runescape";
+				INFOPLIST_FILE = runescapeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Icekraks.runescapeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+		C6B14298A53D2E8BAD8E8FAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C6B142D7442C7A58724409E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/runescape.app/runescape";
+				INFOPLIST_FILE = runescapeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Icekraks.runescapeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		C6B1475A29099995CCA11E70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = runescapeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Icekraks.runescapeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = runescape;
+			};
+			name = Release;
+		};
+		C6B149968836A80A2F73E4A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = runescapeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Icekraks.runescapeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = runescape;
+			};
+			name = Debug;
+		};
+		C6B14A438B9E40DB444E8158 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = runescape/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Icekraks.runescape;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C6B14E7D8C6E43D40DDC5D42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = runescape/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Icekraks.runescape;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C6B14FB76D6CF7D5CAD58837 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C6B146C45F880FF9CF53F834 /* Build configuration list for PBXNativeTarget "runescapeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6B149968836A80A2F73E4A0 /* Debug */,
+				C6B1475A29099995CCA11E70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C6B1485E7C42A0814302231E /* Build configuration list for PBXProject "runescape" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6B14FB76D6CF7D5CAD58837 /* Debug */,
+				C6B14298A53D2E8BAD8E8FAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6B14AC84440306F030C756C /* Build configuration list for PBXNativeTarget "runescape" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6B14A438B9E40DB444E8158 /* Debug */,
+				C6B14E7D8C6E43D40DDC5D42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C6B14D507EEAB97FDF97D572 /* Build configuration list for PBXNativeTarget "runescapeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6B142D7442C7A58724409E9 /* Debug */,
+				C6B140B2E240B71E58DD385F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C6B14D57C4ACD192A453B2D0 /* Project object */;
+}
